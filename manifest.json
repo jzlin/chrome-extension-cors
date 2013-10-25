@@ -17,7 +17,7 @@
     },
     "default_title" : "Cross-origin resource sharing"
   },
-  "content_security_policy" : "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval'; img-src *; connect-src *;",
+  "content_security_policy" : "default-src 'self'; connect-src *;",
   "permissions": [
     "http://*/*",
     "https://*/*"
